@@ -11,5 +11,8 @@
     ":prConcurrentLimitNone",
     ":prHourlyLimitNone",
     ":semanticCommitsDisabled"
-  ]
+  ],
+  "rust": {
+    "commitMessageTopic": "{{depName}} crate"
+  }
 }
