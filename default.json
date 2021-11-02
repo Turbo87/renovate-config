@@ -8,6 +8,8 @@
     ":automergeTesters",
     ":dependencyDashboard",
     ":maintainLockFilesWeekly",
+    ":prConcurrentLimitNone",
+    ":prHourlyLimitNone",
     ":semanticCommitsDisabled"
   ]
 }
