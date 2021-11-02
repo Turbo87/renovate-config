@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchCurrentVersion": ">= 1.0.0",
+      "updateTypes": ["minor"],
+      "automerge": true
+    }
+  ]
+}

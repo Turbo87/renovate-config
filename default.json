@@ -3,17 +3,11 @@
   "extends": [
     "config:base",
     ":automergePatch",
+    "github>Turbo87/renovate-config:automergeStableMinor",
     ":automergeLinters",
     ":automergeTesters",
     ":dependencyDashboard",
     ":maintainLockFilesWeekly",
     ":semanticCommitsDisabled"
-  ],
-  "packageRules": [
-    {
-      "matchCurrentVersion": ">= 1.0.0",
-      "updateTypes": ["minor"],
-      "automerge": true
-    }
   ]
 }

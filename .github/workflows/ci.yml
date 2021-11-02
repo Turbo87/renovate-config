@@ -18,6 +18,7 @@ jobs:
     strategy:
       matrix:
         file:
+          - automergeStableMinor.json
           - default.json
 
     env:
