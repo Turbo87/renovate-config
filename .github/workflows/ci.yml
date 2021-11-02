@@ -20,6 +20,8 @@ jobs:
         file:
           - automergeStableMinor.json
           - default.json
+          - emberApp.json
+          - emberAddon.json
 
     env:
       RENOVATE_CONFIG_FILE: ${{ matrix.file }}
