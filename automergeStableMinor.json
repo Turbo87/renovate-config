@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Automerge minor upgrades for semver stable packages if they pass tests",
   "packageRules": [
     {
       "matchCurrentVersion": ">= 1.0.0",
