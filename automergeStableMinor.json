@@ -4,7 +4,7 @@
   "packageRules": [
     {
       "matchCurrentVersion": ">= 1.0.0",
-      "updateTypes": ["minor"],
+      "matchUpdateTypes": ["minor"],
       "automerge": true
     }
   ]
