@@ -11,5 +11,10 @@
       "lookupNameTemplate": "rust-lang/rust",
       "datasourceTemplate": "github-releases"
     }
-  ]
+  ],
+  "packageRules": [{
+    "matchManagers": ["regex"],
+    "matchPackageNames": ["rust"],
+    "commitMessageTopic": "Rust"
+  }]
 }
