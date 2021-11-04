@@ -22,6 +22,7 @@ jobs:
           - default.json
           - emberApp.json
           - emberAddon.json
+          - rust/updateToolchain.json
 
     env:
       RENOVATE_CONFIG_FILE: ${{ matrix.file }}
