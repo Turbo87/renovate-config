@@ -1,0 +1,8 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Automerge upgrades as if a semver caret constraint was used",
+  "extends": [
+    ":automergePatch",
+    "github>Turbo87/renovate-config:automergeStableMinor"
+  ]
+}
