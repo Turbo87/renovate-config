@@ -19,6 +19,7 @@ jobs:
       matrix:
         file:
           - automergeStableMinor.json
+          - commitTopics.json
           - default.json
           - emberApp.json
           - emberAddon.json
