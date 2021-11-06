@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Groups all `conduit` crates together",
+  "packageRules": [{
+    "matchPackagePatterns": [
+      "^conduit$",
+      "^conduit-",
+      "^sentry-conduit$"
+    ],
+    "groupName": "conduit crates"
+  }]
+}

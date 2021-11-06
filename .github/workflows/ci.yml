@@ -22,6 +22,7 @@ jobs:
           - default.json
           - emberApp.json
           - emberAddon.json
+          - rust/groupConduit.json
           - rust/updateToolchain.json
 
     env:
