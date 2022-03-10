@@ -6,6 +6,12 @@
       "matchCurrentVersion": ">= 1.0.0",
       "matchUpdateTypes": ["minor"],
       "automerge": true
+    },
+    {
+      "matchDepTypes": ["action"],
+      "matchCurrentVersion": "!/^v0\./",
+      "matchUpdateTypes": ["minor"],
+      "automerge": true
     }
   ]
 }
