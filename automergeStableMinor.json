@@ -9,7 +9,7 @@
     },
     {
       "matchDepTypes": ["action"],
-      "matchCurrentVersion": "!/^v0\./",
+      "matchCurrentVersion": "!/^v0\\./",
       "matchUpdateTypes": ["minor"],
       "automerge": true
     }
