@@ -30,7 +30,7 @@ jobs:
       RENOVATE_CONFIG_FILE: ${{ matrix.file }}
 
     steps:
-      - uses: actions/checkout@v2.4.0
+      - uses: actions/checkout@v2.4.1
 
       - name: testing ${{ matrix.file }}
         run: npx -p renovate renovate-config-validator
