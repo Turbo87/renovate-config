@@ -4,6 +4,7 @@
     "config:base",
     "github>Turbo87/renovate-config:automergeCaretConstraint",
     "github>Turbo87/renovate-config:commitTopics",
+    "github>Turbo87/renovate-config//githubActions/regexManagers",
     ":automergeLinters",
     ":automergeTesters",
     ":dependencyDashboard",
