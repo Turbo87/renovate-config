@@ -8,29 +8,25 @@ on:
       - master
 
 env:
-  LOG_LEVEL: debug
+  # renovate: datasource=npm depName=pnpm
+  PNPM_VERSION: 7.14.0
 
 jobs:
   validate-preset:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
-    strategy:
-      matrix:
-        file:
-          - automergeStableMinor.json
-          - commitTopics.json
-          - default.json
-          - emberApp.json
-          - emberAddon.json
-          - rust/groupConduit.json
-          - rust/updateToolchain.json
-
-    env:
-      RENOVATE_CONFIG_FILE: ${{ matrix.file }}
-
     steps:
       - uses: actions/checkout@v3.0.2
 
-      - name: testing ${{ matrix.file }}
-        run: npx -p renovate renovate-config-validator
+      - uses: pnpm/action-setup@v2.2.4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+
+      - uses: actions/setup-node@v3.0.0
+        with:
+          node-version: 14.x
+          cache: pnpm
+
+      - run: pnpm install
+      - run: pnpm test
