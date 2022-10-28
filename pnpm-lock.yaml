@@ -4,13 +4,13 @@ specifiers:
   execa: 6.1.0
   globby: 13.1.2
   jest: 29.2.2
-  renovate: 34.7.0
+  renovate: 34.7.1
 
 devDependencies:
   execa: 6.1.0
   globby: 13.1.2
   jest: 29.2.2
-  renovate: 34.7.0
+  renovate: 34.7.1
 
 packages:
 
@@ -6079,8 +6079,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.7.0:
-    resolution: {integrity: sha512-0lGgUNKMPa942Qub7MZd38nggycnPkZ5ICf/CgVGjRs1IqkIt7DZQwDO1WqD8eooa/XXKcH9O9Z04+ECxpYLuQ==}
+  /renovate/34.7.1:
+    resolution: {integrity: sha512-jcOo8RlBfTnSBUowiGbCxynbHp2ZJcJIJsnFhzMeu7sGRY8llhI5kqDaYFLu/y58LCZBKe031DqMQRwplwZ0ag==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
