@@ -4,13 +4,13 @@ specifiers:
   execa: 6.1.0
   globby: 13.1.2
   jest: 29.3.1
-  renovate: 34.24.0
+  renovate: 34.24.1
 
 devDependencies:
   execa: 6.1.0
   globby: 13.1.2
   jest: 29.3.1
-  renovate: 34.24.0
+  renovate: 34.24.1
 
 packages:
 
@@ -987,6 +987,7 @@ packages:
 
   /@aws-sdk/util-base64-browser/3.109.0:
     resolution: {integrity: sha512-lAZ6fyDGiRLaIsKT9qh7P9FGuNyZ4gAbr1YOSQk/5mHtaTuUvxlPptZuInNM/0MPQm6lpcot00D8IWTucn4PbA==}
+    deprecated: The package @aws-sdk/util-base64-browser has been renamed to @aws-sdk/util-base64. Please install the renamed package.
     dependencies:
       tslib: 2.4.1
     dev: true
@@ -994,6 +995,7 @@ packages:
   /@aws-sdk/util-base64-node/3.55.0:
     resolution: {integrity: sha512-UQ/ZuNoAc8CFMpSiRYmevaTsuRKzLwulZTnM8LNlIt9Wx1tpNvqp80cfvVj7yySKROtEi20wq29h31dZf1eYNQ==}
     engines: {node: '>= 12.0.0'}
+    deprecated: The package @aws-sdk/util-base64-node has been renamed to @aws-sdk/util-base64. Please install the renamed package.
     dependencies:
       '@aws-sdk/util-buffer-from': 3.55.0
       tslib: 2.4.1
@@ -5933,8 +5935,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.24.0:
-    resolution: {integrity: sha512-qq2V/hYDKBgTihb261YhlM6s5TUHURnoBYPwCW0L2+9D1caUB68Upf+Ccwgs4zNVZU5wKWnj89ZrKwsFkC/o/A==}
+  /renovate/34.24.1:
+    resolution: {integrity: sha512-IRP3+Ia/n4FQ7xuLmHCRzFU8emTBXJtVGv2EikFZ77kTQ1WcwqncjEpenkyThw6UOz0l7pOhqN1k1Xm9Okq74A==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
