@@ -4,13 +4,13 @@ specifiers:
   execa: 6.1.0
   globby: 13.1.3
   jest: 29.3.1
-  renovate: 34.77.1
+  renovate: 34.94.0
 
 devDependencies:
   execa: 6.1.0
   globby: 13.1.3
   jest: 29.3.1
-  renovate: 34.77.1
+  renovate: 34.94.0
 
 packages:
 
@@ -2256,7 +2256,7 @@ packages:
       '@pnpm/write-project-manifest': 4.1.1
       fast-deep-equal: 3.1.3
       is-windows: 1.0.2
-      json5: 2.2.2
+      json5: 2.2.3
       parse-json: 5.2.0
       read-yaml-file: 2.1.0
       sort-keys: 4.2.0
@@ -2286,7 +2286,7 @@ packages:
     dependencies:
       '@pnpm/text.comments-parser': 1.0.0
       '@pnpm/types': 8.9.0
-      json5: 2.2.2
+      json5: 2.2.3
       write-file-atomic: 5.0.0
       write-yaml-file: 4.2.0
     dev: true
@@ -2346,15 +2346,15 @@ packages:
       '@seald-io/nedb': 3.1.0
     dev: true
 
-  /@renovatebot/osv-offline/1.0.8:
-    resolution: {integrity: sha512-oYryh9uttikbaYhcoiJn8DBMjgxbneu9NvVF5PnG7qrUDYr7KIrlxdOlo8vQ2iytT1qd8+VzOLDoJReu1EL1Ag==}
+  /@renovatebot/osv-offline/1.0.10:
+    resolution: {integrity: sha512-xEn+c2a2SQV92JaFCTzV/zvXuFAXG6W0d05sR398qJGkEfhZLo6y9FvaWJirQi24vRXjpzdUmB9CXtzR36s1fg==}
     dependencies:
       '@octokit/rest': 19.0.5
       '@renovatebot/osv-offline-db': 1.0.1
-      adm-zip: 0.5.9
+      adm-zip: 0.5.10
       fs-extra: 10.1.0
       got: 11.8.6
-      luxon: 3.1.1
+      luxon: 3.2.0
     transitivePeerDependencies:
       - encoding
     dev: true
@@ -2724,8 +2724,8 @@ packages:
     dev: true
     optional: true
 
-  /adm-zip/0.5.9:
-    resolution: {integrity: sha512-s+3fXLkeeLjZ2kLjCBwQufpI5fuN+kIGBxu6530nVQZGVol0d7Y/M88/xw9HGGUcJjKf8LutN3VPRUBq6N7Ajg==}
+  /adm-zip/0.5.10:
+    resolution: {integrity: sha512-x0HvcHqVJNTPk/Bw8JbLWlWoo6Wwnsug0fnYYro1HBrjxZ3G7/AZk7Ahv8JwDe1uIcz8eBqvu86FuF1POiG7vQ==}
     engines: {node: '>=6.0'}
     dev: true
 
@@ -3992,8 +3992,8 @@ packages:
       slash: 4.0.0
     dev: true
 
-  /good-enough-parser/1.1.21:
-    resolution: {integrity: sha512-XkTm6NC2z0AGkaTI3dgmNMgPoKC51Mu+TIXUyAWmp8xk5iC+6+JKBaQRwfr3/UNsU09VdPFdjMnjks/FWpU+Gw==}
+  /good-enough-parser/1.1.22:
+    resolution: {integrity: sha512-fI4qWIeyqjleGazMcXnqgtvG8qBJGUoj5CtraqaUpZmk94ztMab6irx3Yz+EsJKKgIrwkSBM69WHLngfhAe7hg==}
     dependencies:
       '@thi.ng/zipper': 1.0.3
       '@types/moo': 0.5.5
@@ -4941,12 +4941,6 @@ packages:
     resolution: {integrity: sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==}
     dev: true
 
-  /json5/2.2.2:
-    resolution: {integrity: sha512-46Tk9JiOL2z7ytNQWFLpj99RZkVgeHf87yGQKsIkaPz1qSH9UczKH1rO7K3wgRselo0tYMUNfecYpm/p1vC7tQ==}
-    engines: {node: '>=6'}
-    hasBin: true
-    dev: true
-
   /json5/2.2.3:
     resolution: {integrity: sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==}
     engines: {node: '>=6'}
@@ -5058,8 +5052,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /luxon/3.1.1:
-    resolution: {integrity: sha512-Ah6DloGmvseB/pX1cAmjbFvyU/pKuwQMQqz7d0yvuDlVYLTs2WeDHQMpC8tGjm1da+BriHROW/OEIT/KfYg6xw==}
+  /luxon/3.2.0:
+    resolution: {integrity: sha512-Namj3XqoJjFekq/JHQEaaAv4zyE/fyyDBrMEBnIL2s/X54SC8W5Ea0uej1TRXUArWec8OojsAVsGBYhNRjpMVw==}
     engines: {node: '>=12'}
     dev: true
 
@@ -6037,8 +6031,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.77.1:
-    resolution: {integrity: sha512-nFehB24qJN6j4jxnRdhOAcb6prcgHygDu2l0Jo4A3bNARVJy81Bl0KeCvuM9HmvCF7Lh1X0ifDgONSeRv/XP6w==}
+  /renovate/34.94.0:
+    resolution: {integrity: sha512-fD+ioYU4UB6QRRX1dL3OZx2EzR85WKvAjZnUyApehYGOwRvaJXmRCVu61pXzE5ivAaIi31fmji3Ehhkm9mYe6Q==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -6061,7 +6055,7 @@ packages:
       '@opentelemetry/sdk-trace-base': 1.8.0_@opentelemetry+api@1.3.0
       '@opentelemetry/sdk-trace-node': 1.8.0_@opentelemetry+api@1.3.0
       '@opentelemetry/semantic-conventions': 1.8.0
-      '@renovatebot/osv-offline': 1.0.8
+      '@renovatebot/osv-offline': 1.0.10
       '@renovatebot/pep440': 2.1.6
       '@renovatebot/ruby-semver': 1.1.7
       '@sindresorhus/is': 4.6.0
@@ -6098,7 +6092,7 @@ packages:
       git-url-parse: 13.1.0
       github-url-from-git: 1.5.0
       global-agent: 3.0.0
-      good-enough-parser: 1.1.21
+      good-enough-parser: 1.1.22
       got: 11.8.6
       graph-data-structure: 2.0.0
       handlebars: 4.7.7
@@ -6108,8 +6102,8 @@ packages:
       js-yaml: 4.1.0
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 3.0.0
-      json5: 2.2.2
-      luxon: 3.1.1
+      json5: 2.2.3
+      luxon: 3.2.0
       markdown-it: 13.0.1
       markdown-table: 2.0.0
       marshal: 0.5.4
@@ -6128,7 +6122,7 @@ packages:
       redis: 4.5.1
       remark: 13.0.0
       remark-github: 10.1.0
-      safe-stable-stringify: 2.4.1
+      safe-stable-stringify: 2.4.2
       semver: 7.3.8
       semver-stable: 3.0.0
       semver-utils: 1.1.4
@@ -6269,8 +6263,8 @@ packages:
     dev: true
     optional: true
 
-  /safe-stable-stringify/2.4.1:
-    resolution: {integrity: sha512-dVHE6bMtS/bnL2mwualjc6IxEv1F+OCUpA46pKUj6F8uDbUM0jCCulPqRNPSnWwGNKx5etqMjZYdXtrm5KJZGA==}
+  /safe-stable-stringify/2.4.2:
+    resolution: {integrity: sha512-gMxvPJYhP0O9n2pvcfYfIuYgbledAOJFcqRThtPRmjscaipiwcwPPKLytpVzMkG2HAN87Qmo2d4PtGiri1dSLA==}
     engines: {node: '>=10'}
     dev: true
 
