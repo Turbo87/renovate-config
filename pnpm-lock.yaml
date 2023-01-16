@@ -4,13 +4,13 @@ specifiers:
   execa: 6.1.0
   globby: 13.1.3
   jest: 29.3.1
-  renovate: 34.94.0
+  renovate: 34.102.8
 
 devDependencies:
   execa: 6.1.0
   globby: 13.1.3
   jest: 29.3.1
-  renovate: 34.94.0
+  renovate: 34.102.8
 
 packages:
 
@@ -2340,21 +2340,21 @@ packages:
       '@redis/client': 1.4.2
     dev: true
 
-  /@renovatebot/osv-offline-db/1.0.1:
-    resolution: {integrity: sha512-GZiFxckbNWW06fb8013LGPdNzp1lGONoUloHTjbC9/SP0AdrfgHZAHXy/o8uKB5nleodk7+siBojv21JPsrcqQ==}
+  /@renovatebot/osv-offline-db/1.1.0:
+    resolution: {integrity: sha512-svr4WbqUnL9XBMPYQxHDX5ev/V7b3TouXHNbdoKAKzUSw1cDOkZpxUWfawuG9YxXhLiZdI2KtSORwuohUYK+7Q==}
     dependencies:
       '@seald-io/nedb': 3.1.0
     dev: true
 
-  /@renovatebot/osv-offline/1.0.10:
-    resolution: {integrity: sha512-xEn+c2a2SQV92JaFCTzV/zvXuFAXG6W0d05sR398qJGkEfhZLo6y9FvaWJirQi24vRXjpzdUmB9CXtzR36s1fg==}
+  /@renovatebot/osv-offline/1.1.0:
+    resolution: {integrity: sha512-e6+p2dtqe0HOK7v2E4Nl7FZK1ghT4MQi6/gP2FsYehcRnxfZgVCcrgzEvWCKZR5a1+VMvHsVlmOdwt/vmNFrgQ==}
     dependencies:
       '@octokit/rest': 19.0.5
-      '@renovatebot/osv-offline-db': 1.0.1
+      '@renovatebot/osv-offline-db': 1.1.0
       adm-zip: 0.5.10
       fs-extra: 10.1.0
       got: 11.8.6
-      luxon: 3.2.0
+      luxon: 3.2.1
     transitivePeerDependencies:
       - encoding
     dev: true
@@ -2364,8 +2364,8 @@ packages:
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     dev: true
 
-  /@renovatebot/ruby-semver/1.1.7:
-    resolution: {integrity: sha512-M07oVOD2pr+E0lopMgFVtDwUqJ5oTZD2QlrVT7yyZ3qW5/R1RQTGb6FwME2Iy+QNjfxYtvkCz1XS2LHZcOPyOw==}
+  /@renovatebot/ruby-semver/1.1.8:
+    resolution: {integrity: sha512-e8eDI+Xq1mizLiQenjCqmG/cY739iY0SeY3u/3kHlhZsMo4D+htaKYOpHa8YfzSn3DvUmMMBpQQit4yOth/ksA==}
     dependencies:
       tslib: 2.4.1
     dev: true
@@ -2857,8 +2857,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /aws4/1.11.0:
-    resolution: {integrity: sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==}
+  /aws4/1.12.0:
+    resolution: {integrity: sha512-NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==}
     dev: true
 
   /azure-devops-node-api/11.2.0:
@@ -3274,8 +3274,8 @@ packages:
     dev: true
     optional: true
 
-  /commander/9.4.1:
-    resolution: {integrity: sha512-5EEkTNyHNGFPD2H+c/dXXfQZYa/scCKasxWcXJaWnNJ99pnQN9Vnmqow+p+PlFPE63Q6mThaZws1T+HxfpgtPw==}
+  /commander/9.5.0:
+    resolution: {integrity: sha512-KRs7WVDKg86PWiuAqhDrAQnTXZKraVcCc6vFdL14qrZ/DcWwuRo7VoiYXalXO7S5GKpqYiVEwCbgFDfxNHKJBQ==}
     engines: {node: ^12.20.0 || >=14}
     dev: true
 
@@ -3510,7 +3510,7 @@ packages:
     hasBin: true
     dependencies:
       '@one-ini/wasm': 0.1.1
-      commander: 9.4.1
+      commander: 9.5.0
       minimatch: 5.1.0
       semver: 7.3.8
     dev: true
@@ -4100,6 +4100,10 @@ packages:
     dependencies:
       is-stream: 2.0.1
       type-fest: 0.8.1
+    dev: true
+
+  /hcl2-parser/1.0.3:
+    resolution: {integrity: sha512-NQUm/BFF+2nrBfeqDhhsy4DxxiLHgkeE3FywtjFiXnjSUaio3w4Tz1MQ3vGJBUhyArzOXJ24pO7JwE5LAn7Ncg==}
     dev: true
 
   /he/1.2.0:
@@ -5052,8 +5056,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /luxon/3.2.0:
-    resolution: {integrity: sha512-Namj3XqoJjFekq/JHQEaaAv4zyE/fyyDBrMEBnIL2s/X54SC8W5Ea0uej1TRXUArWec8OojsAVsGBYhNRjpMVw==}
+  /luxon/3.2.1:
+    resolution: {integrity: sha512-QrwPArQCNLAKGO/C+ZIilgIuDnEnKx5QYODdDtbFaxzsbZcc/a7WFq7MhsVYgRlwawLtvOUESTlfJ+hc/USqPg==}
     engines: {node: '>=12'}
     dev: true
 
@@ -5808,8 +5812,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier/2.8.1:
-    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
+  /prettier/2.8.2:
+    resolution: {integrity: sha512-BtRV9BcncDyI2tsuS19zzhzoxD8Dh8LiCx7j7tHzrkz8GFXAexeWFdi22mjE1d16dftH2qNaytVxqiRTGlMfpw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -6031,8 +6035,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.94.0:
-    resolution: {integrity: sha512-fD+ioYU4UB6QRRX1dL3OZx2EzR85WKvAjZnUyApehYGOwRvaJXmRCVu61pXzE5ivAaIi31fmji3Ehhkm9mYe6Q==}
+  /renovate/34.102.8:
+    resolution: {integrity: sha512-5tXDKrkGPLTPyCG7tXguSoJxxRMWIxzxG2ChZoTXcn5fZEMCfvrKcZMwFi6b0DaSWm/xZcla5jGvtPs6lWEc4g==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -6055,9 +6059,9 @@ packages:
       '@opentelemetry/sdk-trace-base': 1.8.0_@opentelemetry+api@1.3.0
       '@opentelemetry/sdk-trace-node': 1.8.0_@opentelemetry+api@1.3.0
       '@opentelemetry/semantic-conventions': 1.8.0
-      '@renovatebot/osv-offline': 1.0.10
+      '@renovatebot/osv-offline': 1.1.0
       '@renovatebot/pep440': 2.1.6
-      '@renovatebot/ruby-semver': 1.1.7
+      '@renovatebot/ruby-semver': 1.1.8
       '@sindresorhus/is': 4.6.0
       '@types/tmp': 0.2.3
       '@yarnpkg/core': 3.3.1
@@ -6065,7 +6069,7 @@ packages:
       agentkeepalive: 4.2.1
       aggregate-error: 3.1.0
       auth-header: 1.0.0
-      aws4: 1.11.0
+      aws4: 1.12.0
       azure-devops-node-api: 11.2.0
       bunyan: 1.8.15
       cacache: 17.0.4
@@ -6073,7 +6077,7 @@ packages:
       chalk: 4.1.2
       changelog-filename-regex: 2.0.1
       clean-git-ref: 2.0.1
-      commander: 9.4.1
+      commander: 9.5.0
       conventional-commits-detector: 1.0.3
       crypto-random-string: 3.3.1
       deepmerge: 4.2.2
@@ -6097,13 +6101,14 @@ packages:
       graph-data-structure: 2.0.0
       handlebars: 4.7.7
       hasha: 5.2.2
+      hcl2-parser: 1.0.3
       ignore: 5.2.4
       ini: 3.0.1
       js-yaml: 4.1.0
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 3.0.0
       json5: 2.2.3
-      luxon: 3.2.0
+      luxon: 3.2.1
       markdown-it: 13.0.1
       markdown-table: 2.0.0
       marshal: 0.5.4
@@ -6117,7 +6122,7 @@ packages:
       p-queue: 6.6.2
       p-throttle: 4.1.1
       parse-link-header: 2.0.0
-      prettier: 2.8.1
+      prettier: 2.8.2
       quick-lru: 5.1.1
       redis: 4.5.1
       remark: 13.0.0
