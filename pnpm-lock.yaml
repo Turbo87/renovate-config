@@ -11,8 +11,8 @@ devDependencies:
     specifier: 29.5.0
     version: 29.5.0
   renovate:
-    specifier: 35.66.3
-    version: 35.66.3(typanion@3.12.1)
+    specifier: 35.73.0
+    version: 35.73.0(typanion@3.12.1)
 
 packages:
 
@@ -1585,6 +1585,12 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
+  /@cdktf/hcl2json@0.16.1:
+    resolution: {integrity: sha512-c0AcAzpUYREmkonxai3Jjd7P0c0/TMB+ga3Ir/02MDSdyV8VQ+1CLK2nVMJJqJTsGZkxrZGVj/jlwA6coDYaqg==}
+    dependencies:
+      fs-extra: 11.1.1
+    dev: true
+
   /@cheap-glitch/mi-cron@1.0.1:
     resolution: {integrity: sha512-kxl7vhg+SUgyHRn22qVbR9MfSm5CzdlYZDJTbGemqFFi/Jmno/hdoQIvBIPoqFY9dcPyxzOUNRRFn6x88UQMpw==}
     dev: true
@@ -1609,6 +1615,18 @@ packages:
 
   /@iarna/toml@3.0.0:
     resolution: {integrity: sha512-td6ZUkz2oS3VeleBcN+m//Q6HlCFCPrnI0FZhrt/h4XqLEdOyYp2u21nd8MdsR+WJy5r9PTDaHTDDfhf4H4l6Q==}
+    dev: true
+
+  /@isaacs/cliui@8.0.2:
+    resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
+    engines: {node: '>=12'}
+    dependencies:
+      string-width: 5.1.2
+      string-width-cjs: /string-width@4.2.3
+      strip-ansi: 7.0.1
+      strip-ansi-cjs: /strip-ansi@6.0.1
+      wrap-ansi: 8.1.0
+      wrap-ansi-cjs: /wrap-ansi@7.0.0
     dev: true
 
   /@istanbuljs/load-nyc-config@1.1.0:
@@ -2091,14 +2109,14 @@ packages:
       '@opentelemetry/sdk-trace-base': 1.12.0(@opentelemetry/api@1.4.1)
     dev: true
 
-  /@opentelemetry/instrumentation-bunyan@0.31.1(@opentelemetry/api@1.4.1):
-    resolution: {integrity: sha512-y81y0L50ocziES+jVcsCM684R+1p3M64bfGwVumZI/cH3LNSlnvOd4xgQom4Ug+UzcYcP9RxjFURDQAvh8tnDw==}
+  /@opentelemetry/instrumentation-bunyan@0.31.2(@opentelemetry/api@1.4.1):
+    resolution: {integrity: sha512-De35vwLh9MJRs9nMRP+o25AIr3EGteonjtW8hcHxt79gb+6b4sWXZyihLJZtsE7NY7sW1H6FPB5ZAminqVTMCQ==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/instrumentation': 0.35.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/instrumentation': 0.38.0(@opentelemetry/api@1.4.1)
       '@types/bunyan': 1.8.7
     transitivePeerDependencies:
       - supports-color
@@ -2115,20 +2133,6 @@ packages:
       '@opentelemetry/instrumentation': 0.38.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/semantic-conventions': 1.12.0
       semver: 7.5.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@opentelemetry/instrumentation@0.35.1(@opentelemetry/api@1.4.1):
-    resolution: {integrity: sha512-EZsvXqxenbRTSNsft6LDcrT4pjAiyZOx3rkDNeqKpwZZe6GmZtsXaZZKuDkJtz9fTjOGjDHjZj9/h80Ya9iIJw==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      '@opentelemetry/api': ^1.3.0
-    dependencies:
-      '@opentelemetry/api': 1.4.1
-      require-in-the-middle: 5.2.0
-      semver: 7.5.0
-      shimmer: 1.2.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2245,6 +2249,13 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
+  /@pkgjs/parseargs@0.11.0:
+    resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
+    engines: {node: '>=14'}
+    requiresBuild: true
+    dev: true
+    optional: true
+
   /@pnpm/constants@6.1.0:
     resolution: {integrity: sha512-L6AiU3OXv9kjKGTJN9j8n1TeJGDcLX9atQlZvAkthlvbXjvKc5SKNWESc/eXhr5nEfuMWhQhiKHDJCpYejmeCQ==}
     engines: {node: '>=14.19'}
@@ -2317,16 +2328,16 @@ packages:
       '@babel/runtime-corejs3': 7.21.5
     dev: true
 
-  /@redis/bloom@1.2.0(@redis/client@1.5.6):
+  /@redis/bloom@1.2.0(@redis/client@1.5.7):
     resolution: {integrity: sha512-HG2DFjYKbpNmVXsa0keLHp/3leGJz1mjh09f2RLGGLQZzSHpkmZWuwJbAvo3QcRY8p80m5+ZdXZdYOSBLlp7Cg==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.5.6
+      '@redis/client': 1.5.7
     dev: true
 
-  /@redis/client@1.5.6:
-    resolution: {integrity: sha512-dFD1S6je+A47Lj22jN/upVU2fj4huR7S9APd7/ziUXsIXDL+11GPYti4Suv5y8FuXaN+0ZG4JF+y1houEJ7ToA==}
+  /@redis/client@1.5.7:
+    resolution: {integrity: sha512-gaOBOuJPjK5fGtxSseaKgSvjiZXQCdLlGg9WYQst+/GRUjmXaiB5kVkeQMRtPc7Q2t93XZcJfBMSwzs/XS9UZw==}
     engines: {node: '>=14'}
     dependencies:
       cluster-key-slot: 1.1.2
@@ -2334,36 +2345,36 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /@redis/graph@1.1.0(@redis/client@1.5.6):
+  /@redis/graph@1.1.0(@redis/client@1.5.7):
     resolution: {integrity: sha512-16yZWngxyXPd+MJxeSr0dqh2AIOi8j9yXKcKCwVaKDbH3HTuETpDVPcLujhFYVPtYrngSco31BUcSa9TH31Gqg==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.5.6
+      '@redis/client': 1.5.7
     dev: true
 
-  /@redis/json@1.0.4(@redis/client@1.5.6):
+  /@redis/json@1.0.4(@redis/client@1.5.7):
     resolution: {integrity: sha512-LUZE2Gdrhg0Rx7AN+cZkb1e6HjoSKaeeW8rYnt89Tly13GBI5eP4CwDVr+MY8BAYfCg4/N15OUrtLoona9uSgw==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.5.6
+      '@redis/client': 1.5.7
     dev: true
 
-  /@redis/search@1.1.2(@redis/client@1.5.6):
+  /@redis/search@1.1.2(@redis/client@1.5.7):
     resolution: {integrity: sha512-/cMfstG/fOh/SsE+4/BQGeuH/JJloeWuH+qJzM8dbxuWvdWibWAOAHHCZTMPhV3xIlH4/cUEIA8OV5QnYpaVoA==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.5.6
+      '@redis/client': 1.5.7
     dev: true
 
-  /@redis/time-series@1.0.4(@redis/client@1.5.6):
+  /@redis/time-series@1.0.4(@redis/client@1.5.7):
     resolution: {integrity: sha512-ThUIgo2U/g7cCuZavucQTQzA9g9JbDDY2f64u3AbAoz/8vE2lt2U37LamDUVChhaDA3IRT9R6VvJwqnUfTJzng==}
     peerDependencies:
       '@redis/client': ^1.0.0
     dependencies:
-      '@redis/client': 1.5.6
+      '@redis/client': 1.5.7
     dev: true
 
   /@renovatebot/osv-offline-db@1.3.2:
@@ -2386,16 +2397,14 @@ packages:
       - encoding
     dev: true
 
-  /@renovatebot/pep440@2.1.13:
-    resolution: {integrity: sha512-PFnG9X7on77Gp9FPdossWfvDL6QTg1MafZP3hdKafo3n6SP89wiyZmjFVaQwlRlE5cEmZQwh11dE8Oos9H2paw==}
+  /@renovatebot/pep440@2.1.15:
+    resolution: {integrity: sha512-zJQ6ZLzgD3HsyyBLnDiviimxfripKHzPYmRqgIHb9Ettre3ivrkaz6F1zbeowf0kRBxB8rh8qit0Ftn4oBsg+w==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     dev: true
 
-  /@renovatebot/ruby-semver@2.1.11:
-    resolution: {integrity: sha512-4UCu1qpkfpa9sIuo8q0+oEwW76XT21OtEuwT+xecaK4QSdqvNfROFNSzq/PA4or/v9uPvLkRWHF36DNd5t/A4w==}
-    engines: {node: ^14.15.0 || ^16.13.0 || >= 18.12.0, yarn: ^1.22.0}
-    dependencies:
-      tslib: 2.5.0
+  /@renovatebot/ruby-semver@3.0.1:
+    resolution: {integrity: sha512-sbNb8/J/bI8ZYFrgwpEnYAZl8WDrB9OvEPbnEw4hakAMNLJ4H9ByrzywmJa+xqmPXcF4rOqFqqURMiLZkBXwtQ==}
+    engines: {node: ^18.12.0 || >= 20.0.0, yarn: ^1.22.0}
     dev: true
 
   /@seald-io/binary-search-tree@1.0.3:
@@ -2806,6 +2815,11 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /ansi-regex@6.0.1:
+    resolution: {integrity: sha512-n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA==}
+    engines: {node: '>=12'}
+    dev: true
+
   /ansi-styles@3.2.1:
     resolution: {integrity: sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==}
     engines: {node: '>=4'}
@@ -2823,6 +2837,11 @@ packages:
   /ansi-styles@5.2.0:
     resolution: {integrity: sha512-Cxwpt2SfTzTtXcfOlzGEee8O+c+MmUgGrNiBcXnuWxuFJHe6a5Hz7qwhwe5OgaSYI0IJvkLqWX1ASG+cJOkEiA==}
     engines: {node: '>=10'}
+    dev: true
+
+  /ansi-styles@6.2.1:
+    resolution: {integrity: sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==}
+    engines: {node: '>=12'}
     dev: true
 
   /any-promise@1.3.0:
@@ -3097,25 +3116,22 @@ packages:
     dev: true
     optional: true
 
-  /cacache@17.0.5:
-    resolution: {integrity: sha512-Y/PRQevNSsjAPWykl9aeGz8Pr+OI6BYM9fYDNMvOkuUiG9IhG4LEmaYrZZZvioMUEQ+cBCxT0v8wrnCURccyKA==}
+  /cacache@17.1.0:
+    resolution: {integrity: sha512-hXpFU+Z3AfVmNuiLve1qxWHMq0RSIt5gjCKAHi/M6DktwFwDdAXAtunl1i4WSKaaVcU9IsRvXFg42jTHigcC6Q==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
       '@npmcli/fs': 3.1.0
       fs-minipass: 3.0.2
-      glob: 9.3.5
+      glob: 10.2.2
       lru-cache: 7.18.3
-      minipass: 4.2.8
+      minipass: 5.0.0
       minipass-collect: 1.0.2
       minipass-flush: 1.0.5
       minipass-pipeline: 1.2.4
       p-map: 4.0.0
-      promise-inflight: 1.0.1
       ssri: 10.0.4
       tar: 6.1.13
       unique-filename: 3.0.0
-    transitivePeerDependencies:
-      - bluebird
     dev: true
 
   /cacheable-lookup@5.0.4:
@@ -3535,6 +3551,10 @@ packages:
     dev: true
     optional: true
 
+  /eastasianwidth@0.2.0:
+    resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
+    dev: true
+
   /editorconfig@1.0.2:
     resolution: {integrity: sha512-l8CnaNCz0dgCqJQ3hKqW2qtUavm1WLdJUvlxufaZ6JDkds3UFxgUKnKJz982yJPYko/78LkWAiwJadFnFtUBjw==}
     engines: {node: '>=14'}
@@ -3565,6 +3585,10 @@ packages:
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
+    dev: true
+
+  /emoji-regex@9.2.2:
+    resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
     dev: true
 
   /emojibase-regex@6.0.1:
@@ -3804,6 +3828,14 @@ packages:
       is-callable: 1.2.7
     dev: true
 
+  /foreground-child@3.1.1:
+    resolution: {integrity: sha512-TMKDUnIte6bfb5nWv7V/caI169OHgvwjb7V4WkeUvbQQdjr5rWKqHFiKWb/fcOwB+CzBT+qbWjvj+DVwRskpIg==}
+    engines: {node: '>=14'}
+    dependencies:
+      cross-spawn: 7.0.3
+      signal-exit: 4.0.1
+    dev: true
+
   /fs-extra@11.1.1:
     resolution: {integrity: sha512-MGIE4HOvQCeUCzmlHs0vXpih4ysz4wg9qiSAu6cd42lVwPbTM1TjV7RusoyQqMmk/95gdQZX72u+YW+c3eEpFQ==}
     engines: {node: '>=14.14'}
@@ -3934,6 +3966,18 @@ packages:
       is-glob: 4.0.3
     dev: true
 
+  /glob@10.2.2:
+    resolution: {integrity: sha512-Xsa0BcxIC6th9UwNjZkhrMtNo/MnyRL8jGCP+uEwhA5oFOCY1f2s1/oNKY47xQ0Bg5nkjsfAEIej1VeH62bDDQ==}
+    engines: {node: '>=16 || 14 >=14.17'}
+    hasBin: true
+    dependencies:
+      foreground-child: 3.1.1
+      jackspeak: 2.2.0
+      minimatch: 9.0.0
+      minipass: 5.0.0
+      path-scurry: 1.7.0
+    dev: true
+
   /glob@6.0.4:
     resolution: {integrity: sha512-MKZeRNyYZAVVVG1oZeLaWie1uweH40m9AZwIwxyPbTSX4hHrVYSzLg0Ro5Z5R7XKkIX+Cc6oD1rqeDJnwsB8/A==}
     dependencies:
@@ -3967,16 +4011,6 @@ packages:
       once: 1.4.0
     dev: true
     optional: true
-
-  /glob@9.3.5:
-    resolution: {integrity: sha512-e1LleDykUz2Iu+MTYdkSsuWX8lvAjAcs0Xef0lNIu0S2wOAzuTxCJtcd9S3cijlwYF18EsU3rzb8jPVobxDh9Q==}
-    engines: {node: '>=16 || 14 >=14.17'}
-    dependencies:
-      fs.realpath: 1.0.0
-      minimatch: 8.0.4
-      minipass: 4.2.8
-      path-scurry: 1.7.0
-    dev: true
 
   /global-agent@3.0.0:
     resolution: {integrity: sha512-PT6XReJ+D07JvGoxQMkT6qji/jVNfX/h364XHZOWeRzy64sSFr+xJ5OX7LI3b4MPQzdL4H8Y8M0xzPpsVMwA8Q==}
@@ -4133,10 +4167,6 @@ packages:
     dependencies:
       is-stream: 2.0.1
       type-fest: 0.8.1
-    dev: true
-
-  /hcl2-parser@1.0.3:
-    resolution: {integrity: sha512-NQUm/BFF+2nrBfeqDhhsy4DxxiLHgkeE3FywtjFiXnjSUaio3w4Tz1MQ3vGJBUhyArzOXJ24pO7JwE5LAn7Ncg==}
     dev: true
 
   /he@1.2.0:
@@ -4471,6 +4501,15 @@ packages:
     dependencies:
       html-escaper: 2.0.2
       istanbul-lib-report: 3.0.0
+    dev: true
+
+  /jackspeak@2.2.0:
+    resolution: {integrity: sha512-r5XBrqIJfwRIjRt/Xr5fv9Wh09qyhHfKnYddDlpM+ibRR20qrYActpCAgU6U+d53EOEjzkvxPMVHSlgR7leXrQ==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@isaacs/cliui': 8.0.2
+    optionalDependencies:
+      '@pkgjs/parseargs': 0.11.0
     dev: true
 
   /jest-changed-files@29.5.0:
@@ -5278,6 +5317,7 @@ packages:
     dependencies:
       brace-expansion: 2.0.1
     dev: true
+    optional: true
 
   /minimatch@6.1.6:
     resolution: {integrity: sha512-6bR3UIeh/DF8+p6A9Spyuy67ShOq42rOkHWi7eUe3Ua99Zo5lZfGC6lJJWkeoK4k9jQFT3Pl7czhTXimG2XheA==}
@@ -5286,8 +5326,8 @@ packages:
       brace-expansion: 2.0.1
     dev: true
 
-  /minimatch@8.0.4:
-    resolution: {integrity: sha512-W0Wvr9HyFXZRGIDgCicunpQ299OKXs9RgZfaukz4qAW/pJhcpUfupc9c+OObPOFueNy8VSrZgEmDtk6Kh4WzDA==}
+  /minimatch@9.0.0:
+    resolution: {integrity: sha512-0jJj8AvgKqWN05mrwuqi8QYKx1WmYSUoKSxu5Qhs9prezTz10sxAHGNZe9J9cqIJzta8DWsleh2KaVaLl6Ru2w==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
       brace-expansion: 2.0.1
@@ -5860,6 +5900,7 @@ packages:
       bluebird:
         optional: true
     dev: true
+    optional: true
 
   /promise-retry@2.0.1:
     resolution: {integrity: sha512-y+WKFlBR8BGXnsNlIHFGPZmyDf3DFMoLhaflAnyZgV6rG6xu+JwesTo2Q9R6XwYmtmwAFCkAk3e35jEdoeh/3g==}
@@ -6001,15 +6042,15 @@ packages:
       strip-indent: 3.0.0
     dev: true
 
-  /redis@4.6.5:
-    resolution: {integrity: sha512-O0OWA36gDQbswOdUuAhRL6mTZpHFN525HlgZgDaVNgCJIAZR3ya06NTESb0R+TUZ+BFaDpz6NnnVvoMx9meUFg==}
+  /redis@4.6.6:
+    resolution: {integrity: sha512-aLs2fuBFV/VJ28oLBqYykfnhGGkFxvx0HdCEBYdJ99FFbSEMZ7c1nVKwR6ZRv+7bb7JnC0mmCzaqu8frgOYhpA==}
     dependencies:
-      '@redis/bloom': 1.2.0(@redis/client@1.5.6)
-      '@redis/client': 1.5.6
-      '@redis/graph': 1.1.0(@redis/client@1.5.6)
-      '@redis/json': 1.0.4(@redis/client@1.5.6)
-      '@redis/search': 1.1.2(@redis/client@1.5.6)
-      '@redis/time-series': 1.0.4(@redis/client@1.5.6)
+      '@redis/bloom': 1.2.0(@redis/client@1.5.7)
+      '@redis/client': 1.5.7
+      '@redis/graph': 1.1.0(@redis/client@1.5.7)
+      '@redis/json': 1.0.4(@redis/client@1.5.7)
+      '@redis/search': 1.1.2(@redis/client@1.5.7)
+      '@redis/time-series': 1.0.4(@redis/client@1.5.7)
     dev: true
 
   /regenerator-runtime@0.13.11:
@@ -6052,8 +6093,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@35.66.3(typanion@3.12.1):
-    resolution: {integrity: sha512-G2EI5rqPHgaKYbfM4jwMhrORmTKZN4Yw17NkHqQ1eM7zU7cOizjFlgQEbc96dckZdQjL8vZuUZU1KFZeEHoxWA==}
+  /renovate@35.73.0(typanion@3.12.1):
+    resolution: {integrity: sha512-kAxsLh77NF2H/dDu20I8XdEPmq2WI5T743lZO2lePeaI3qh8sON1q5IZe5H0O5dsEwZGQdxWVtx5FyrmJhi+TA==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -6064,13 +6105,14 @@ packages:
       '@aws-sdk/client-rds': 3.314.0
       '@aws-sdk/client-s3': 3.312.0
       '@breejs/later': 4.1.0
+      '@cdktf/hcl2json': 0.16.1
       '@cheap-glitch/mi-cron': 1.0.1
       '@iarna/toml': 3.0.0
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/context-async-hooks': 1.12.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/exporter-trace-otlp-http': 0.38.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.38.0(@opentelemetry/api@1.4.1)
-      '@opentelemetry/instrumentation-bunyan': 0.31.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/instrumentation-bunyan': 0.31.2(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation-http': 0.38.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/resources': 1.12.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/sdk-trace-base': 1.12.0(@opentelemetry/api@1.4.1)
@@ -6078,8 +6120,8 @@ packages:
       '@opentelemetry/semantic-conventions': 1.12.0
       '@qnighy/marshal': 0.1.3
       '@renovatebot/osv-offline': 1.2.4
-      '@renovatebot/pep440': 2.1.13
-      '@renovatebot/ruby-semver': 2.1.11
+      '@renovatebot/pep440': 2.1.15
+      '@renovatebot/ruby-semver': 3.0.1
       '@sindresorhus/is': 4.6.0
       '@types/ms': 0.7.31
       '@types/tmp': 0.2.3
@@ -6091,7 +6133,7 @@ packages:
       aws4: 1.12.0
       azure-devops-node-api: 12.0.0
       bunyan: 1.8.15
-      cacache: 17.0.5
+      cacache: 17.1.0
       cacheable-lookup: 5.0.4
       chalk: 4.1.2
       changelog-filename-regex: 2.0.1
@@ -6120,7 +6162,6 @@ packages:
       graph-data-structure: 3.3.0
       handlebars: 4.7.7
       hasha: 5.2.2
-      hcl2-parser: 1.0.3
       ignore: 5.2.4
       ini: 4.1.0
       js-yaml: 4.1.0
@@ -6130,7 +6171,7 @@ packages:
       luxon: 3.3.0
       markdown-it: 13.0.1
       markdown-table: 2.0.0
-      minimatch: 5.1.6
+      minimatch: 9.0.0
       moo: 0.5.2
       ms: 2.1.3
       nanoid: 3.3.6
@@ -6143,7 +6184,7 @@ packages:
       parse-link-header: 2.0.0
       prettier: 2.8.8
       quick-lru: 5.1.1
-      redis: 4.6.5
+      redis: 4.6.6
       remark: 13.0.0
       remark-github: 10.1.0
       safe-stable-stringify: 2.4.3
@@ -6151,7 +6192,7 @@ packages:
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 2.1.2
-      simple-git: 3.17.0
+      simple-git: 3.18.0
       slugify: 1.6.6
       source-map-support: 0.5.21
       traverse: 0.6.7
@@ -6181,17 +6222,6 @@ packages:
   /require-directory@2.1.1:
     resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
     engines: {node: '>=0.10.0'}
-    dev: true
-
-  /require-in-the-middle@5.2.0:
-    resolution: {integrity: sha512-efCx3b+0Z69/LGJmm9Yvi4cqEdxnoGnxYxGxBghkkTTFeXRtTCmmhO0AnAfHz59k957uTSuy8WaHqOs8wbYUWg==}
-    engines: {node: '>=6'}
-    dependencies:
-      debug: 4.3.4
-      module-details-from-path: 1.0.3
-      resolve: 1.22.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /require-in-the-middle@6.0.0:
@@ -6395,8 +6425,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /simple-git@3.17.0:
-    resolution: {integrity: sha512-JozI/s8jr3nvLd9yn2jzPVHnhVzt7t7QWfcIoDcqRIGN+f1IINGv52xoZti2kkYfoRhhRvzMSNPfogHMp97rlw==}
+  /simple-git@3.18.0:
+    resolution: {integrity: sha512-Yt0GJ5aYrpPci3JyrYcsPz8Xc05Hi4JPSOb+Sgn/BmPX35fn/6Fp9Mef8eMBCrL2siY5w4j49TA5Q+bxPpri1Q==}
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
@@ -6571,6 +6601,15 @@ packages:
       strip-ansi: 6.0.1
     dev: true
 
+  /string-width@5.1.2:
+    resolution: {integrity: sha512-HnLOCR3vjcY8beoNLtcjZ5/nxn2afmME6lhrDrebokqMap+XbeW8n9TXpPDOqdGK5qcI3oT0GKTW6wC7EMiVqA==}
+    engines: {node: '>=12'}
+    dependencies:
+      eastasianwidth: 0.2.0
+      emoji-regex: 9.2.2
+      strip-ansi: 7.0.1
+    dev: true
+
   /string_decoder@1.1.1:
     resolution: {integrity: sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==}
     dependencies:
@@ -6588,6 +6627,13 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       ansi-regex: 5.0.1
+    dev: true
+
+  /strip-ansi@7.0.1:
+    resolution: {integrity: sha512-cXNxvT8dFNRVfhVME3JAe98mkXDYN2O1l7jmcwMnOslDeESg1rF/OZMtK0nRAhiari1unG5cD4jG3rapUAkLbw==}
+    engines: {node: '>=12'}
+    dependencies:
+      ansi-regex: 6.0.1
     dev: true
 
   /strip-bom@4.0.0:
@@ -7025,6 +7071,15 @@ packages:
       ansi-styles: 4.3.0
       string-width: 4.2.3
       strip-ansi: 6.0.1
+    dev: true
+
+  /wrap-ansi@8.1.0:
+    resolution: {integrity: sha512-si7QWI6zUMq56bESFvagtmzMdGOtoxfR+Sez11Mobfc7tm+VkUckk9bW2UeffTGVUbOksxmSw0AA2gs8g71NCQ==}
+    engines: {node: '>=12'}
+    dependencies:
+      ansi-styles: 6.2.1
+      string-width: 5.1.2
+      strip-ansi: 7.0.1
     dev: true
 
   /wrappy@1.0.2:
