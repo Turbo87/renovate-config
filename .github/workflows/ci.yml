@@ -9,7 +9,7 @@ on:
 
 env:
   # renovate: datasource=npm depName=pnpm
-  PNPM_VERSION: 8.6.7
+  PNPM_VERSION: 8.6.10
 
 jobs:
   validate-preset:
