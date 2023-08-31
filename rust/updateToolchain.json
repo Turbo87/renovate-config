@@ -3,7 +3,7 @@
   "description": "Upgrades the `channel` field in the `rust-toolchain.toml` file",
   "regexManagers": [
     {
-      "fileMatch": ["^rust-toolchain\\.toml?$"],
+      "fileMatch": ["(^|/)rust-toolchain\\.toml?$"],
       "matchStrings": [
         "channel\\s*=\\s*\"(?<currentValue>\\d+\\.\\d+(\\.\\d+)?)\""
       ],
