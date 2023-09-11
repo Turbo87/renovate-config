@@ -15,8 +15,8 @@ devDependencies:
     specifier: 29.6.4
     version: 29.6.4
   renovate:
-    specifier: 36.78.8
-    version: 36.78.8(typanion@3.14.0)
+    specifier: 36.91.0
+    version: 36.91.0(typanion@3.14.0)
 
 packages:
 
@@ -2105,7 +2105,7 @@ packages:
       adm-zip: 0.5.10
       fs-extra: 11.1.1
       got: 11.8.6
-      luxon: 3.4.2
+      luxon: 3.4.3
       node-fetch: 2.7.0
     transitivePeerDependencies:
       - encoding
@@ -3137,6 +3137,7 @@ packages:
 
   /brace-expansion@1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
+    requiresBuild: true
     dependencies:
       balanced-match: 1.0.2
       concat-map: 0.0.1
@@ -3203,7 +3204,7 @@ packages:
     dependencies:
       '@npmcli/fs': 3.1.0
       fs-minipass: 3.0.3
-      glob: 10.3.3
+      glob: 10.3.4
       lru-cache: 7.18.3
       minipass: 7.0.3
       minipass-collect: 1.0.2
@@ -3417,6 +3418,7 @@ packages:
 
   /concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
+    requiresBuild: true
     dev: true
 
   /console-control-strings@1.1.0:
@@ -3457,7 +3459,7 @@ packages:
     resolution: {integrity: sha512-p0SaNjrHOnQeR8/VnfGbmg9te2kfyYSQ7Sc/j/6DtPL3JQvKxmjO9TSjNFpujqV3vEYYBvNNvXSxzyksBWAx1Q==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      luxon: 3.4.2
+      luxon: 3.4.3
     dev: true
 
   /cross-spawn@7.0.3:
@@ -3948,6 +3950,7 @@ packages:
 
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
+    requiresBuild: true
     dev: true
 
   /fsevents@2.3.3:
@@ -4060,8 +4063,8 @@ packages:
       is-glob: 4.0.3
     dev: true
 
-  /glob@10.3.3:
-    resolution: {integrity: sha512-92vPiMb/iqpmEgsOoIDvTjc50wf9CCCvMzsi6W0JLPeUKE8TWP1a73PgqSrqy7iAZxaSD1YdzU7QZR5LF51MJw==}
+  /glob@10.3.4:
+    resolution: {integrity: sha512-6LFElP3A+i/Q8XQKEvZjkEWEOTgAIALR9AO2rwT8bgPhDd1anmqDJDZ6lLddI4ehxxxR1S5RIqKe1uapMQfYaQ==}
     engines: {node: '>=16 || 14 >=14.17'}
     hasBin: true
     dependencies:
@@ -4380,6 +4383,7 @@ packages:
 
   /inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    requiresBuild: true
     dependencies:
       once: 1.4.0
       wrappy: 1.0.2
@@ -5211,8 +5215,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /luxon@3.4.2:
-    resolution: {integrity: sha512-uBoAVCVcajsrqy3pv7eo5jEUz1oeLmCcnMv8n4AJpT5hbpN9lUssAXibNElpbLce3Mhm9dyBzwYLs9zctM/0tA==}
+  /luxon@3.4.3:
+    resolution: {integrity: sha512-tFWBiv3h7z+T/tDaoxA8rqTxy1CHV6gHS//QdaH4pulbq/JuBSGgQspQQqcgnwdAx6pNI7cmvz5Sv/addzHmUg==}
     engines: {node: '>=12'}
     dev: true
 
@@ -5917,6 +5921,7 @@ packages:
   /path-is-absolute@1.0.1:
     resolution: {integrity: sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==}
     engines: {node: '>=0.10.0'}
+    requiresBuild: true
     dev: true
 
   /path-key@3.1.1:
@@ -6198,8 +6203,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.78.8(typanion@3.14.0):
-    resolution: {integrity: sha512-otpho8CgHeIc3lIdJwcLAzCWOmkPFPn7hcZpbxkbvjMxtSlGwoc9fSjc85EZ8eXFo8Wnjm8EFb5/SDUeNFsDJA==}
+  /renovate@36.91.0(typanion@3.14.0):
+    resolution: {integrity: sha512-2vIhEZ5OAUPW+T1vBYcJ0wSXAyA/ZMe+QWxVhVb5WrxuE1Y/51jE0jT903zU2+0DZCQLF9kjpe6cdrWWXkzbZw==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -6259,7 +6264,7 @@ packages:
       fs-extra: 11.1.1
       git-url-parse: 13.1.0
       github-url-from-git: 1.5.0
-      glob: 10.3.3
+      glob: 10.3.4
       global-agent: 3.0.0
       good-enough-parser: 1.1.23
       got: 11.8.6
@@ -6274,7 +6279,7 @@ packages:
       json5: 2.2.3
       jsonata: 2.0.3
       klona: 2.0.6
-      luxon: 3.4.2
+      luxon: 3.4.3
       markdown-it: 13.0.1
       markdown-table: 2.0.0
       minimatch: 9.0.3
