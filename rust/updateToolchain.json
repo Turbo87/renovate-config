@@ -14,7 +14,7 @@
   ],
   "packageRules": [{
     "matchManagers": ["regex"],
-    "matchPackageNames": ["rust"],
+    "matchDepNames": ["rust"],
     "commitMessageTopic": "Rust"
   }]
 }
