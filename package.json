@@ -10,7 +10,7 @@
     "execa": "8.0.1",
     "globby": "14.0.2",
     "jest": "29.7.0",
-    "renovate": "36.109.4"
+    "renovate": "37.440.7"
   },
   "jest": {
     "testMatch": ["**/test.mjs"]
