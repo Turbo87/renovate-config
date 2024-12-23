@@ -7,7 +7,7 @@
   },
   "author": "Tobias Bieniek <tobias@bieniek.cloud>",
   "devDependencies": {
-    "execa": "8.0.1",
+    "execa": "9.5.2",
     "globby": "14.0.2",
     "jest": "29.7.0",
     "renovate": "39.82.1"
