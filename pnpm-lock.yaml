@@ -15,8 +15,8 @@ devDependencies:
     specifier: 29.7.0
     version: 29.7.0
   renovate:
-    specifier: 39.158.2
-    version: 39.158.2(typanion@3.14.0)
+    specifier: 39.164.1
+    version: 39.164.1(typanion@3.14.0)
 
 packages:
 
@@ -1929,12 +1929,12 @@ packages:
     engines: {node: '>=18.12'}
     dev: true
 
-  /@pnpm/catalogs.resolver@1000.0.1:
-    resolution: {integrity: sha512-A6KdGQMYNiwBe7N4CuQXfxhHnHo1MBX+d+EiAm+CEXeVrKPhm2RmVHRcKkF+pBlr6vV/KHp9z5tF2B3+jFnnRw==}
+  /@pnpm/catalogs.resolver@1000.0.2:
+    resolution: {integrity: sha512-5xp3InFRgl6YzovSYoKs0NTalcVKRj4KkD/d0zIBsKp2cae0G/t2ZZVq3J5rS1Ytf4qkv4oe5SZWpd1oV7Hkew==}
     engines: {node: '>=18.12'}
     dependencies:
       '@pnpm/catalogs.protocol-parser': 1000.0.0
-      '@pnpm/error': 1000.0.1
+      '@pnpm/error': 1000.0.2
     dev: true
 
   /@pnpm/catalogs.types@1000.0.0:
@@ -1942,8 +1942,8 @@ packages:
     engines: {node: '>=18.12'}
     dev: true
 
-  /@pnpm/constants@1001.0.0:
-    resolution: {integrity: sha512-yg+S/e8goJoUC4CxyKAplT2fuI94G/nynshPCNkLsi69bUMim5iDMuiiiMo/LeMoOjuyfByealD3u1mqNXrl+A==}
+  /@pnpm/constants@1001.1.0:
+    resolution: {integrity: sha512-xb9dfSGi1qfUKY3r4Zy9JdC9+ZeaDxwfE7HrrGIEsBVY1hvIn6ntbR7A97z3nk44yX7vwbINNf9sizTp0WEtEw==}
     engines: {node: '>=18.12'}
     dev: true
 
@@ -1952,11 +1952,11 @@ packages:
     engines: {node: '>=14.19'}
     dev: true
 
-  /@pnpm/error@1000.0.1:
-    resolution: {integrity: sha512-FdDMjp9ORXK/JlxwjlNF7mRohVKx5pvM01bxsVUSLFLZ9/oMBtDceWlntUTLhvr2MwYcr69mGilTojnXEbsjQA==}
+  /@pnpm/error@1000.0.2:
+    resolution: {integrity: sha512-2SfE4FFL73rE1WVIoESbqlj4sLy5nWW4M/RVdHvCRJPjlQHa9MH7m7CVJM204lz6I+eHoB+E7rL3zmpJR5wYnQ==}
     engines: {node: '>=18.12'}
     dependencies:
-      '@pnpm/constants': 1001.0.0
+      '@pnpm/constants': 1001.1.0
     dev: true
 
   /@pnpm/error@4.0.0:
@@ -1973,13 +1973,13 @@ packages:
       graceful-fs: 4.2.11
     dev: true
 
-  /@pnpm/parse-overrides@1000.0.1:
-    resolution: {integrity: sha512-dr7dBAFYsS2XS483/Z2bwk1ng8OwK4ixK3H7/RIptG1yD1GgYf4rZR1jAvQdmyuyTttKE9jSAdJLNFPo0bTRug==}
+  /@pnpm/parse-overrides@1000.0.2:
+    resolution: {integrity: sha512-NII/zHEDIqtSNkDS39TD0r6ukKdZaQPwn6EjDEHYFacgbHN2d3i261paQvm0Pm0oX4svV+5x5YWHUTIbQJItDg==}
     engines: {node: '>=18.12'}
     dependencies:
-      '@pnpm/catalogs.resolver': 1000.0.1
+      '@pnpm/catalogs.resolver': 1000.0.2
       '@pnpm/catalogs.types': 1000.0.0
-      '@pnpm/error': 1000.0.1
+      '@pnpm/error': 1000.0.2
       '@pnpm/parse-wanted-dependency': 1000.0.0
     dev: true
 
@@ -3676,8 +3676,8 @@ packages:
     engines: {node: '>=18.0'}
     dev: true
 
-  /cronstrue@2.53.0:
-    resolution: {integrity: sha512-CkAcaI94xL8h6N7cGxgXfR5D7oV2yVtDzB9vMZP8tIgPyEv/oc/7nq9rlk7LMxvc3N+q6LKZmNLCVxJRpyEg8A==}
+  /cronstrue@2.54.0:
+    resolution: {integrity: sha512-vyp5NklDxA5MjPfQgkn0bA+0vRQe7Q9keX7RPdV6rMgd7LtDvbuKgnT+3T5ZAX16anSP5HmahcRp8mziXsLfaw==}
     hasBin: true
     dev: true
 
@@ -6243,8 +6243,8 @@ packages:
       mimic-fn: 2.1.0
     dev: true
 
-  /openpgp@6.0.1:
-    resolution: {integrity: sha512-3lReDKjgWsKFArZT4Y/yj7/Q0q6/VhXarn4WqKEkyiBWckNjrThSGoB1t0IKo3Ke0ClvBpyQfTwumkGUkxOwww==}
+  /openpgp@6.1.0:
+    resolution: {integrity: sha512-fRTeitP+hoGJD3kbdUlAI++wE6MvfvXw1rBqHwmBMxIpLjowatJ2zb5ThkORpIkSz5F12wO+xCYRSTbT7M4qKA==}
     engines: {node: '>= 18.0.0'}
     requiresBuild: true
     dev: true
@@ -6754,8 +6754,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@39.158.2(typanion@3.14.0):
-    resolution: {integrity: sha512-GpLUA9zubIkIuIz0JHkFCJsb65tQAhpOhoVNIFQcL4tbRXTr/hGZ7Dnsr/1/L1ZhOwVPvpDlh7MTlE9PfonnWw==}
+  /renovate@39.164.1(typanion@3.14.0):
+    resolution: {integrity: sha512-tTTbVe1hGL/h54JBM9uaqvxmqdkabcBWXQiblPUfRd9iVbqoa4PXfMOENFgoJ6j8GDaHXNq4pRx0ewqWkG/QKQ==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^9.0.0}
     hasBin: true
     dependencies:
@@ -6777,7 +6777,7 @@ packages:
       '@opentelemetry/sdk-trace-base': 1.30.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-trace-node': 1.30.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.28.0
-      '@pnpm/parse-overrides': 1000.0.1
+      '@pnpm/parse-overrides': 1000.0.2
       '@qnighy/marshal': 0.1.3
       '@renovatebot/detect-tools': 1.1.0
       '@renovatebot/kbpgp': 4.0.1
@@ -6801,7 +6801,7 @@ packages:
       commander: 13.1.0
       conventional-commits-detector: 1.0.3
       croner: 9.0.0
-      cronstrue: 2.53.0
+      cronstrue: 2.54.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 6.1.0
@@ -6853,7 +6853,7 @@ packages:
       remark: 13.0.0
       remark-github: 10.1.0
       safe-stable-stringify: 2.5.0
-      semver: 7.6.3
+      semver: 7.7.0
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 2.1.2
@@ -6871,7 +6871,7 @@ packages:
       zod: 3.24.1
     optionalDependencies:
       better-sqlite3: 11.8.1
-      openpgp: 6.0.1
+      openpgp: 6.1.0
       re2: 1.21.4
     transitivePeerDependencies:
       - aws-crt
@@ -7045,12 +7045,6 @@ packages:
 
   /semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
-    hasBin: true
-    dev: true
-
-  /semver@7.6.3:
-    resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
-    engines: {node: '>=10'}
     hasBin: true
     dev: true
 
