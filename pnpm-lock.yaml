@@ -15,8 +15,8 @@ devDependencies:
     specifier: 29.7.0
     version: 29.7.0
   renovate:
-    specifier: 39.194.1
-    version: 39.194.1(typanion@3.14.0)
+    specifier: 39.207.2
+    version: 39.207.2(typanion@3.14.0)
 
 packages:
 
@@ -4437,8 +4437,8 @@ packages:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
     dev: true
 
-  /graph-data-structure@4.4.0:
-    resolution: {integrity: sha512-eQ/BL0WiwDQKADavJ2e72/5PFAaXoQa2nQ3YQa5v25FgwJOp13DhXoYQP0Q4QlepPEKZfJyab/xMrmJaKYdj/A==}
+  /graph-data-structure@4.5.0:
+    resolution: {integrity: sha512-OCeIzpK9JnV5js4gtDJgwebRbcOsZpoN9CNIwEooHkV/FNol+OykWPOugSTXBH/QICEW2N6U+6L2d9DcK4YBcw==}
     dev: true
 
   /grapheme-splitter@1.0.4:
@@ -5942,8 +5942,8 @@ packages:
     dev: true
     optional: true
 
-  /nanoid@3.3.8:
-    resolution: {integrity: sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==}
+  /nanoid@3.3.9:
+    resolution: {integrity: sha512-SppoicMGpZvbF1l3z4x7No3OlIjP7QJvC9XR7AhZr1kL133KHnKPztkKDc+Ir4aJ/1VhTySrtKhrsycmrMQfvg==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
     dev: true
@@ -6632,8 +6632,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@39.194.1(typanion@3.14.0):
-    resolution: {integrity: sha512-eh/xa8RdRiTBETCTfm5nD9Sga+cbPRALD2FFr1GQAzK3E8q6U3XBYTAfVlAaqHhwnKuz/F+Va+MOW3sHixoixw==}
+  /renovate@39.207.2(typanion@3.14.0):
+    resolution: {integrity: sha512-Woz7K5DDzJj8UK8UCKJB/RvvpsNLDN34HSzYvbjnm6xXKpV8bI5FfPrqtVdMIO3GkoRtOaMd3fiOfv+gppwTsw==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
     dependencies:
@@ -6700,7 +6700,7 @@ packages:
       good-enough-parser: 1.1.23
       google-auth-library: 9.15.1
       got: 11.8.6
-      graph-data-structure: 4.4.0
+      graph-data-structure: 4.5.0
       handlebars: 4.7.8
       ignore: 7.0.3
       ini: 5.0.0
@@ -6716,7 +6716,7 @@ packages:
       minimatch: 10.0.1
       moo: 0.5.2
       ms: 2.1.3
-      nanoid: 3.3.8
+      nanoid: 3.3.9
       neotraverse: 0.6.18
       node-html-parser: 7.0.1
       p-all: 3.0.0
