@@ -15,8 +15,8 @@ devDependencies:
     specifier: 29.7.0
     version: 29.7.0
   renovate:
-    specifier: 39.235.2
-    version: 39.235.2(typanion@3.14.0)
+    specifier: 39.235.4
+    version: 39.235.4(typanion@3.14.0)
 
 packages:
 
@@ -3184,6 +3184,7 @@ packages:
 
   /bignumber.js@9.2.0:
     resolution: {integrity: sha512-JocpCSOixzy5XFJi2ub6IMmV/G9i8Lrm2lZvwBv9xPdglmZM0ufDVBbjbrfU/zuLvBfD7Bv2eYxz9i+OHTgkew==}
+    deprecated: pkg version number incorrect
     dev: true
 
   /bindings@1.5.0:
@@ -3223,6 +3224,7 @@ packages:
 
   /brace-expansion@1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
+    requiresBuild: true
     dependencies:
       balanced-match: 1.0.2
       concat-map: 0.0.1
@@ -3541,6 +3543,7 @@ packages:
 
   /concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
+    requiresBuild: true
     dev: true
 
   /conventional-commits-detector@1.0.3:
@@ -6657,8 +6660,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@39.235.2(typanion@3.14.0):
-    resolution: {integrity: sha512-ntJkwcEsVMehKGtYapVe+q0Lo22L7UJqkjIOIRsJxm+hEo5J3P3DEg9F03r51fLoY1tz4L/52qGaqTDuG/6ANw==}
+  /renovate@39.235.4(typanion@3.14.0):
+    resolution: {integrity: sha512-Itzh35bs4hUWbQRo13/iopKoGHyzEAUVf4jC0cOnRBGXJ4YCk1KCUUrro7if/rqPmru6DffRnL2jdcI/xntdCA==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
     dependencies:
