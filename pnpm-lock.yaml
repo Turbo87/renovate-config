@@ -15,8 +15,8 @@ devDependencies:
     specifier: 29.7.0
     version: 29.7.0
   renovate:
-    specifier: 39.264.0
-    version: 39.264.0(typanion@3.14.0)
+    specifier: 39.264.1
+    version: 39.264.1(typanion@3.14.0)
 
 packages:
 
@@ -1649,7 +1649,7 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     requiresBuild: true
     dependencies:
-      semver: 7.7.1
+      semver: 7.7.2
     dev: true
     optional: true
 
@@ -1657,7 +1657,7 @@ packages:
     resolution: {integrity: sha512-/xGlezI6xfGO9NwuJlnwz/K14qD1kCSAGtacBHnGzeAIuJGazcp45KP5NuyARXoKb7cwulAGWVsbeSxdG/cb0Q==}
     engines: {node: ^18.17.0 || >=20.5.0}
     dependencies:
-      semver: 7.7.1
+      semver: 7.7.2
     dev: true
 
   /@one-ini/wasm@0.2.0:
@@ -2959,7 +2959,7 @@ packages:
       lodash: 4.17.21
       micromatch: 4.0.8
       p-limit: 2.3.0
-      semver: 7.7.1
+      semver: 7.7.2
       strip-ansi: 6.0.1
       tar: 6.2.1
       tinylogic: 2.0.0
@@ -3286,6 +3286,7 @@ packages:
 
   /brace-expansion@1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
+    requiresBuild: true
     dependencies:
       balanced-match: 1.0.2
       concat-map: 0.0.1
@@ -3345,7 +3346,7 @@ packages:
   /builtins@5.1.0:
     resolution: {integrity: sha512-SW9lzGTLvWTP1AY8xeAMZimqDrIaSdLQUcVr9DMef51niJ022Ri87SwRRKYm4A6iHfkPaiVUu/Duw2Wc4J7kKg==}
     dependencies:
-      semver: 7.7.1
+      semver: 7.7.2
     dev: true
 
   /bunyan@1.8.15:
@@ -3604,6 +3605,7 @@ packages:
 
   /concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
+    requiresBuild: true
     dev: true
 
   /conventional-commits-detector@1.0.3:
@@ -3880,7 +3882,7 @@ packages:
       '@one-ini/wasm': 0.2.0
       commander: 13.1.0
       minimatch: 10.0.1
-      semver: 7.7.1
+      semver: 7.7.2
     dev: true
 
   /electron-to-chromium@1.5.157:
@@ -4432,7 +4434,7 @@ packages:
       es6-error: 4.1.1
       matcher: 3.0.0
       roarr: 2.15.4
-      semver: 7.7.1
+      semver: 7.7.2
       serialize-error: 7.0.1
     dev: true
 
@@ -6070,7 +6072,7 @@ packages:
     engines: {node: '>=10'}
     requiresBuild: true
     dependencies:
-      semver: 7.7.1
+      semver: 7.7.2
     dev: true
     optional: true
 
@@ -6099,7 +6101,7 @@ packages:
       make-fetch-happen: 13.0.1
       nopt: 7.2.1
       proc-log: 4.2.0
-      semver: 7.7.1
+      semver: 7.7.2
       tar: 6.2.1
       which: 4.0.0
     transitivePeerDependencies:
@@ -6147,7 +6149,7 @@ packages:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.16.1
-      semver: 7.7.1
+      semver: 7.7.2
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -6712,8 +6714,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@39.264.0(typanion@3.14.0):
-    resolution: {integrity: sha512-/XoV0NWdwvjotd94PgQ9WU7A7/xGpUtwxwWaE78qY2ZgHjNe/+dA1v5dpJh9tqn6W/4vW38jSBjxvo6sylV5gA==}
+  /renovate@39.264.1(typanion@3.14.0):
+    resolution: {integrity: sha512-BCdQnhYLSil3+aXeOxu/qul1tY9vBOzJUtklHnTcZm1DXtqp/MC2+vRIKP63vqctmipD1uqBaU1N+pPdNoYmjw==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
     dependencies:
@@ -7841,6 +7843,7 @@ packages:
 
   /wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
+    requiresBuild: true
     dev: true
 
   /write-file-atomic@3.0.3:
